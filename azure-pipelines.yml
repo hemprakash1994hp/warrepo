@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 pool:
-  vmImage: 'cjp-inspiron-3558'
+  vmImage: 'Hosted Agent'
 
 steps:
 - task: Maven@3
